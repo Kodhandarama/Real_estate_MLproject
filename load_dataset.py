@@ -24,7 +24,7 @@ def load_housing_data(housing_path=HOUSING_PATH):
     return pd.read_csv(csv_path)
 
  #each row represents a district       
-
+#data analysis is in a seperate file
 fetch_housing_data()
 housing=load_housing_data()
 housing.hist(bins=50,figsize=(20,15))
